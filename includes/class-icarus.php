@@ -111,7 +111,7 @@ class Icarus {
 	private function define_core_hooks() {
 
 		$this->loader->add_action( 'admin_notices', $this, 'display_third_party_plugin_dependency_warning', 10 );
-		$this->loader->add_action( 'fly_image_created', $this, 'optimize_image', 10, 3 );
+		$this->loader->add_action( 'fly_image_created', $this, 'optimize_image', 10, 2 );
 
 	}
 
