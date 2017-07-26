@@ -20,12 +20,12 @@ This plugin creates a bridge between the two, by automatically piping dynamicall
 
 ## Usage
 
-There is no GUI for this plugin, since all it does is that under the hood it just hooks on Fly's action which is fired upon the creation of a new image, and feeds the generated image's file path to WP Smush. That's it.
+There is no GUI for this plugin, since all it does is that it just hooks on Fly's action which is fired upon the creation of a new image, and feeds the generated image's file path to WP Smush under the hood. That's it.
 
 
 ## Our Company
 
-We are a Hungary-based digital agency, working with a range of clients across Europe on cutting edge digital projects. Check out or website at [y-collective.com](http://y-collective.com).
+We are a Hungary-based digital agency, working with a range of clients across Europe on cutting edge digital projects. Check out our website at [y-collective.com](http://y-collective.com).
 
 
 ## License
