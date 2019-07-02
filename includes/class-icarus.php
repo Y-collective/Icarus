@@ -165,10 +165,14 @@ class Icarus {
 	 * Runs upon a resized fly image is created, and pipes the path of the generated image file
 	 * over to WP Smush's optimization function.
 	 *
-	 * @param string $attachment_id ID of the attachment in the database. Not used in here.
+	 * @param string $attachment_id ID of the attachment in the database.
 	 * @param string $fly_file_path Absolute path of the generated image file.
 	 */
 	public function optimize_image( $attachment_id, $fly_file_path ) {
+
+		if (in_array($attachment_id, apply_filters('icarus_disallow_optimize_image', array()))) {
+			return;
+		}
 
 		global $WpSmush;
 		$WpSmush->do_smushit( $fly_file_path );
