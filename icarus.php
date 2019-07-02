@@ -16,7 +16,7 @@
  * Plugin Name:       Icarus
  * Plugin URI:        http://y-collective.com
  * Description:       Integrates Fly Dynamic Image Resizer with WP Smush
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Y-collective
  * Author URI:        http://y-collective.com
  * License:           GPL-2.0+

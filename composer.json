@@ -2,7 +2,7 @@
   "name": "icarus",
   "type": "wordpress-plugin",
   "description": "Integrates Fly Dynamic Image Resizer with WP Smush",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "http://y-collective.com",
   "authors": [
     {
